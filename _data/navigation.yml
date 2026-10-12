@@ -1,0 +1,6 @@
+# Top navigation. To add a section (e.g. Projects, Resume), create the page
+# and add an entry here.
+- title: About
+  url: /
+- title: Articles
+  url: /articles/

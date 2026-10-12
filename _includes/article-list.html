@@ -1,0 +1,12 @@
+{% assign posts = site.posts %}
+{% if include.limit %}{% assign posts = site.posts | slice: 0, include.limit %}{% endif %}
+<ul class="article-list">
+  {% for post in posts %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+  {% else %}
+  <li class="empty">Nothing here yet.</li>
+  {% endfor %}
+</ul>
