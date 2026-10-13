@@ -1,0 +1,14 @@
+# Interests shown on the home page. Add, remove or reorder freely.
+professional:
+  - name: Fraud and anomaly detection
+    note: Finding new fraud patterns in telecom data before they become expensive.
+  - name: Workflow automation
+    note: Replacing repetitive manual steps with small, dependable tools.
+  - name: "[Placeholder] Another professional interest"
+    note: "[One line on what draws you to it.]"
+
+personal:
+  - name: "[Placeholder] A hobby"
+    note: "[One line about it.]"
+  - name: "[Placeholder] Another interest"
+    note: "[One line about it.]"

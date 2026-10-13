@@ -1,0 +1,5 @@
+<ul class="interests">
+  {% for item in include.items %}
+  <li><span class="interest-name">{{ item.name }}</span> <span class="interest-note">{{ item.note }}</span></li>
+  {% endfor %}
+</ul>

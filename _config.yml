@@ -1,0 +1,33 @@
+# Site settings. GitHub Pages builds this with Jekyll automatically.
+title: Jake Stoltzfus
+tagline: Data and fraud
+description: Data analyst working on anomaly detection and workflow automation.
+url: "https://jstolt3.github.io"
+baseurl: ""
+
+author:
+  name: Jake Stoltzfus
+  email: jakeastoltzfus@gmail.com
+  github: jstolt3
+  linkedin: jacobstoltzfus
+
+# Articles live in _posts/ and are served under /articles/.
+permalink: /articles/:year/:title/
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: articles/feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
